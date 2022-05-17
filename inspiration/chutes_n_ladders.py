@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 
 # load image
-img = cv2.imread("images/chutes_n_ladders.jpg")
+img = cv2.imread("../images/chutes_n_ladders.jpg")
 
 # mask
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
